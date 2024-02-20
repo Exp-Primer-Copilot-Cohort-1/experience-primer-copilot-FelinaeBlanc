@@ -27,5 +27,5 @@ http.createServer(function(request, response) {
             response.end();
             break;
     }
-}).listen(3000);
-console.log('Server started on localhost:3000; press Ctrl-C to terminate....');
+}).listen(3000);    // Listen on port 3000
+console.log('Server started on localhost:3000; press Ctrl-C to terminate....');   
